@@ -1,15 +1,64 @@
+/* общие стили */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
 }
 
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
+
 .header-logo {
+
 }
+
 .header-nav {
+   
 }
+
+.header-list {
+    display: flex;
+    gap: 28px; 
+}
+
+.header-list a {
+    font-style: 14px;
+    opacity: 0.7;
+}
+
+.header-list a.active {
+    opacity: 1;
+}
+
 .btn {
+    font-size: 16px;
+    width: 165px;
+    height: 49px;
+    background-color: #F6762C;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
