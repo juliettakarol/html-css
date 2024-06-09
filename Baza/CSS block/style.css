@@ -1,7 +1,8 @@
 * {
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 body {
@@ -11,4 +12,49 @@ body {
     line-height: 25px;
     font-weight: 400;
     color: #ff0000;
+}
+
+.loremDiv {
+    max-width: 600px;
+    margin: 40px 0;
+    border: 1px solid red;
+}
+
+.loremSpan {
+    display: block;
+}
+
+.loremA {
+    display: block;
+    text-decoration: none;
+    padding: 0 0 40px;
+}
+
+.LoremDiv2 {
+    
+    padding: 0 0 50px;
+    border: 1px solid red;
+}
+
+.loremDiv3{
+    display: inline;
+    padding: 0 40px 0 0;
+    border: 1px solid red;
+}
+
+.loremP {
+    display: inline;
+    border: 1px solid red;
+}
+
+.loremSpan2 {
+display: block;
+padding: 0 50px;
+width: 600px;
+border: 1px solid red;
+}
+
+.loremA2 {
+    display: inline;
+  border: 1px solid red;
 }
