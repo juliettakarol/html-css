@@ -25,6 +25,13 @@ li {
     padding-top: 15px;
 }
 
+.list li::before{
+    content: '\2713';
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
 .line {
     line-height: 36px;
     font-weight: 400;
@@ -87,11 +94,21 @@ margin: 30px;
     border-radius: 10px;
 }
 
+
+
 .txtbutton:hover{
     color: #3a5856;
     box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
 }
 
+.txtbutton::after{
+    content: '\2192';
+    width: 20px;
+  height: 20px;
+  margin-left: 16px;
+  display: inline-block;
+   
+}
 
 .text {
     display: block;
@@ -104,4 +121,25 @@ margin: 30px;
 .text:hover{
 border: 1px solid #7fbed5;
 box-shadow: 0px 0px 20px -1px rgba(127,190,213,0.93);
+}
+
+p {
+    font-family: Arial;
+font-size: 18px;
+line-height: 28px;
+font-weight: 400;
+}
+
+.textp {
+    max-width: 1000px;
+    margin: 30px;
+}
+
+.text1::first-line{
+    color: red;
+}
+
+.text2::first-letter{
+    color: red;
+    font-size: 30px;
 }
