@@ -5,21 +5,40 @@
 }
 
 body{
-    padding: 20px;
-    
+    padding: 30px;   
 }
 
 .block {
- border: 2px solid red; 
+ border: 5px solid red; 
  max-width: 700px;
+ height: 1500px;
+ margin: 0 auto;
+ position: relative;
+
  
 }
 .block div{
-    font-size: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+
 }
 .block1 {
+    background-color: aqua;
+    
 }
 .block2 {
+    background-color: rebeccapurple;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    
 }
 .block3 {
+    background-color: brown;
+    position: relative;
+    z-index: 3;
 }
