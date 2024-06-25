@@ -10,16 +10,23 @@
     width: 500px;
     height: 500px;
 }
-.flex-row {
+
+.block-row {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 10px solid darkblue;
+    justify-content: space-between;
+        
+    
 }
-.flex-column {
+.block-column {
+    
+    border: 10px solid darkblue;
+    
+}
+
+.block-item {
     border: 2px solid red;
     text-align: center;
-
     height: 100px;
     background-color: blueviolet;
 }
+
